@@ -12,8 +12,10 @@ A powerful web application that extracts content from YouTube videos and provide
 
 ## Demo
 
+<<<<<<< HEAD
 ![YouTube Content Analyzer Demo](./gif.gif)
 
+=======
 ## Installation
 
 ### Prerequisites
