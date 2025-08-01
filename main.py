@@ -85,7 +85,6 @@ def get_subtitles(video_url):
         return None
 
 def transcribe_audio(video_url, progress_bar, status_text):
-    """Download audio and transcribe"""
     try:
         with tempfile.TemporaryDirectory() as temp_dir:
             ydl_opts = {
@@ -130,7 +129,6 @@ def clean_subtitle_text(vtt_content):
     return content.strip()
 
 def initialize_with_content(youtube_content):
-    """Initialize the conversation with the YouTube content"""
     st.session_state.messages = []
     
     system_msg = {
@@ -168,7 +166,6 @@ def initialize_with_content(youtube_content):
     return True
 
 def get_ai_response_streaming(user_question, response_container):
-    """Get streaming response from AI"""
     user_msg = {
         "role": "user",
         "content": user_question
@@ -208,7 +205,7 @@ def get_ai_response_streaming(user_question, response_container):
 st.title("YouTube Content Analyzer")
 st.write("Analyze YouTube videos and get insights about content, titles, and strategy")
 
-# Sidebar for video input
+
 with st.sidebar:
     st.header("Video Input")
     video_url = st.text_input("Enter YouTube Video URL:", placeholder="https://www.youtube.com/watch?v=...")
