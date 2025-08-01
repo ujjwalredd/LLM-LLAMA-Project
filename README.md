@@ -12,7 +12,7 @@ A powerful web application that extracts content from YouTube videos and provide
 
 ## Demo
 
-![YouTube Content Analyzer Demo](./Recording.mp4)
+![YouTube Content Analyzer Demo](./gif.gif)
 
 ## Installation
 
