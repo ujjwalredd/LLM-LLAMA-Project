@@ -1,0 +1,10 @@
+streamlit>=1.28.0
+yt-dlp>=2023.9.24
+openai-whisper>=20231117
+ollama>=0.1.7
+regex>=2023.8.8
+requests>=2.31.0
+numpy>=1.24.0
+torch>=2.0.0
+torchaudio>=2.0.0
+ffmpeg-python>=0.2.0
