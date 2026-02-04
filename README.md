@@ -27,7 +27,7 @@ A powerful web application that extracts content from YouTube videos and provide
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/youtube-content-analyzer.git
+   git clone https://github.com/ujjwalredd/youtube-content-analyzer.git
    cd youtube-content-analyzer
    ```
 
